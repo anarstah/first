@@ -10,6 +10,7 @@ body {
     width: 100%;
     height: 100%;
     }
+
 a {
     color: #ff2b12;
     text-decoration: none;
@@ -17,8 +18,9 @@ a {
     -o-transition: all.6s ease;
     -webkit-transition: all.6s ease;
     -moz-transition: all.6s ease;
-    -ms-transition: all.6s ease;
+
 }
+
 a:hover {
     color: #1fe218;
     text-decoration: none;
@@ -26,31 +28,144 @@ a:hover {
     -o-transition: all.6s ease;
     -webkit-transition: all.6s ease;
     -moz-transition: all.6s ease;
-    -ms-transition: all.6s ease;
+
 }
+
 img {
     max-width: 100%;
     height: auto;
-
 }
+
 header {
     float: left;
     background-color: #343434;
     width: 99%;
     padding: 0.5%;
-    color: aliceblue;
     border-bottom: 5px solid #59595a;
 }
+
 header>div#logo>a>img {
-   height: 150px;
+   height: 50px;
     width: auto;
     float: left;
 }
+
 header>div#logo>a>span {
     margin-left: 10px;
     font-size: 2.5em;
     font-family:'Balsamiq Sans', cursive ;
+    color: aliceblue;
+
 }
-header>div#logo>a {
+
+@media (min-width:786px) {
+
+    header>div#logo>a>img {
+        margin-left: 15%;
+    }
+
+    #logo {
+        float: left;
+        width: 30%;
+    }
+
+    #about {
+        float: left;
+        width: 35%;
+    }
+
+    #req_auth {
+        float: right;
+        width: 35%;
+    }
+}
+@media (max-width:785px) and (min-width:440px){
+
+    header>div#logo>a>img {
+        margin-left: 15%;
+    }
+
+    #logo {
+        float: left;
+        width: 50%;
+    }
+
+    #about {
+        visibility: hidden;
+        display: none;
+    }
+
+    #req_auth {
+        float: right;
+        width: 50%;
+    }
+}
+@media (max-width:549px) {
+
+    header>div#logo>a>img {
+        margin-left: 5%;
+    }
+
+    #logo {
+        width: 100%;
+    }
+
+    #about {
+        visibility: hidden;
+        display: none;
+    }
+
+    #req_auth {
+        visibility: hidden;
+        display: none;
+    }
+}
+
+#about {
+    text-align: center;
+    font-family: 'Balsamiq Sans', cursive;
+    font-size: 1.4em;
+    padding-top: 10px;
+}
+
+#about>a {
     color: white;
+    padding-bottom: 0;
+
+}
+
+#about>a:hover {
+    color: #1fe218;
+    border-bottom: 1px solid silver;
+}
+
+#about>a:last-child {
+    margin-left: 10%;
+}
+
+#req_auth>a {
+    color: white;
+    }
+
+#req_auth>a>div.btn {
+    float: right;
+    margin-right: 3%;
+    margin-top: 5px;
+    padding: 3px 5px;
+    border-radius: 5px;
+    font-size: 1.2em;
+    font-family: 'Balsamiq Sans', cursive;
+    background-color: #ff872e;
+    text-shadow: aqua 0 0 1px;
+    border-bottom: #ff872e  solid 4px;
+}
+
+#req_auth>a:hover>div.btn {
+    border-bottom: #ff872e  solid 2px;
+    margin-top: 7px;
+}
+
+#req_auth>a:active>div.btn {
+    border-bottom: #ff872e  solid 0;
+    margin-top: 9px;
 }
