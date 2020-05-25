@@ -1,12 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
-/*
-font-family: 'Balsamiq Sans', cursive;
- */
+/*font-family: 'Balsamiq Sans', cursive;*/
 * {
     margin: 0;
     padding: 0;
 }
-body {
+body, html {
     width: 100%;
     height: 100%;
     }
@@ -35,6 +33,17 @@ img {
     max-width: 100%;
     height: auto;
 }
+
+#wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+#content {
+    flex: 1 0 auto;
+}
+
+/* Стили для шапки*/
 
 header {
     float: left;
@@ -169,7 +178,17 @@ header>div#logo>a>span {
     border-bottom: #ff872e  solid 0;
     margin-top: 9px;
 }
-
 /* Конец стилей для шапки*/
+
+/*Стили для футера*/
+
+footer {
+    float: left;
+    background-color: #343434;
+    width: 98%;
+    padding: 1%;
+    border-bottom: 5px solid #59595a;
+    font-family: 'Balsamiq Sans', cursive;
+}
 
 
