@@ -189,6 +189,71 @@ footer {
     padding: 1%;
     border-bottom: 5px solid #59595a;
     font-family: 'Balsamiq Sans', cursive;
+    padding-bottom: 0;
+    }
+#site_name {
+    margin-left: 3%;
+    color: aqua;
+    float: right;
+
 }
 
+
+#footer_menu>a {
+    color: #eeeeee;
+    margin-left: 2%;
+    font-size: 1.2em;
+}
+#footer_menu>a:hover {
+    color: coral;
+    border-bottom: 1px solid silver;
+}
+#rights {
+    float: left;
+    margin-top: 1%;
+    padding-bottom: 0;
+
+}
+#rights>a {
+    font-size: 1em;
+}
+#rights>a:hover {
+    border-bottom: 1px solid silver;
+}
+#social {
+    float: right;
+    width: 40%;
+    margin-right: 1%;
+    margin-top: 10px;
+    padding: 3px;
+}
+#social>a {
+    margin-left: 5%;
+    float: right;
+    font-size: 1.2em;
+    color: white;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #ff0000;
+    text-align: center;
+    line-height: 35px;
+}
+#social>a:hover {
+   background-color: rgba(250, 0, 0, 0.6) ;
+}
+@media (max-width: 703px) {
+    #site_name{
+        display: none;
+    }
+    #social {
+        width: 100%;
+    }
+}
+@media (max-width: 443px) {
+    #footer_menu>a{
+
+
+    }
+}
 
