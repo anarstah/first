@@ -33,7 +33,29 @@
                     </a>
                 </div>
             </header>
+            <nav>
+                <div id="showMenu"><i class="fas fa-bars"></i></div>
+                <div id="hideMenu">
+                    <a href="">Новости</a>
+                    <a href="">Структура подраздилений</a>
+                    <a href="">Виды экспертиз</a>
+                    <div id="search">
+                        <span>Поиск</span>
+                        <i class="fas fa-search"></i>
+                </div>
+                </div>
+                <div id="mobileMenu">
+                    <a href="">Новости</a><br>
+                    <a href="">Структура подраздилений</a><br>
+                    <a href="">Виды экспертиз</a><br>
+                    <hr>
+                    <a href="">Войти</a>
+                    <a href="">Регистрация</a>
+                </div>
+
+            </nav>
         </div>
+
         <footer>
             <div id="site_name">
                 <span>УГКСЭ</span>-сообщество эспертов!
@@ -55,6 +77,18 @@
     </div>
 
 
+<!-- JQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        $('#showMenu').click(function () {
+            if($('#mobileMenu').is (':visible'))
+                $('#mobileMenu').hide ();
+            else  $('#mobileMenu').show ();
+        });
+        window.onresize = function (event) {
+            $('#mobileMenu').hide ();
+        }
+    </script>
 
 
 </body>
