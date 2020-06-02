@@ -182,10 +182,10 @@ header>div#logo>a>span {
 }
 
 
-/* Меню, АДАПТАЦИЯ!!!!*/
+/* Меню*/
 
 nav {
-    width: 99.4%;
+    width: 98.6%;
     padding: 0.7%;
     float: left;
     border-bottom: 2px solid silver;
@@ -205,6 +205,17 @@ nav a:last-of-type {
     margin-right: 15px;
 }
 
+.fixed {
+    position: fixed;
+    top: 0;
+    opacity: 0.9;
+    }
+
+.fixed:hover {
+    opacity: 1;
+
+}
+
 #hideMenu {
     display: inline;
 }
@@ -215,6 +226,7 @@ nav a:last-of-type {
     margin-left: 20px;
     float: left;
     margin-top: 2px;
+    cursor: pointer;
 
 }
 #search {
@@ -230,6 +242,20 @@ nav a:last-of-type {
     display: none;
     width: 100%;
     float: left;
+}
+
+@media (min-width: 737px) {
+    #showMenu {
+        display: none;
+        visibility: hidden;
+    }
+}
+@media (max-width: 736px) {
+    #hideMenu {
+        display: none;
+        visibility: hidden;
+    }
+
 }
 
 /* Конец стилей для шапки*/
