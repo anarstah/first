@@ -182,7 +182,7 @@ header>div#logo>a>span {
 }
 
 
-/* Меню*/
+/* Меню, АДАПТАЦИЯ!!!!*/
 
 nav {
     width: 99.4%;
@@ -201,6 +201,10 @@ nav a:hover {
     border-bottom: 1px solid silver;
 }
 
+nav a:last-of-type {
+    margin-right: 15px;
+}
+
 #hideMenu {
     display: inline;
 }
@@ -210,6 +214,8 @@ nav a:hover {
     font-size: 1.3em;
     margin-left: 20px;
     float: left;
+    margin-top: 2px;
+
 }
 #search {
     float: right;
@@ -217,7 +223,15 @@ nav a:hover {
     cursor: pointer;
     font-size: 1.3em;
     margin-right: 20px;
+    margin-top: 2px;
 }
+
+#mobileMenu {
+    display: none;
+    width: 100%;
+    float: left;
+}
+
 /* Конец стилей для шапки*/
 
 /*Стили для футера*/
