@@ -75,14 +75,15 @@ aside {
     border: 2px solid #dfdfdf;
     width: 35%;
     float: left;
-    margin-right: 5%;
+    margin-right: 5px;
     border-radius: 5px;
 }
 .video>span {
     float: left;
     font-weight: bold;
     width: 50%;
-    margin-top: 20px;
+    text-align: center;
+    padding-top: 5%;
 }
 #video>a>.btn {
     float: left;
