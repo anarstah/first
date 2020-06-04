@@ -78,6 +78,7 @@ aside {
     margin-right: 5px;
     border-radius: 5px;
 }
+
 .video>span {
     float: left;
     font-weight: bold;
@@ -91,3 +92,4 @@ aside {
 }
 
 /*Адаптивность!!!*/
+
