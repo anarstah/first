@@ -1,0 +1,92 @@
+#main {
+    width: 60%;
+    float: left;
+    margin-left: 3%;
+    margin-top: 20px;
+}
+aside {
+    float: left;
+    width: 30%;
+    margin-right: 3%;
+    margin-top: 20px;
+    margin-left: 2%;
+}
+
+#news {
+    margin-left: 5%;
+    width: 95%;
+    float: left;
+}
+
+.heading {
+    font-size: 1.5em;
+    font-weight: lighter;
+    font-family: 'Balsamiq Sans', cursive;
+    color: #4f4f4f;
+    border-bottom: 2px solid silver;
+    padding: 0 5px;
+    float:  left;
+}
+.heading:first-letter {
+    color: sienna;
+}
+.article {
+    width: 40%;
+    float: left;
+    margin-right: 10%;
+    margin-bottom: 20px;
+    background-color: #fff;
+    border: 1px solid #e3e3e3;
+    max-width: 350px;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+.article>img {
+    border-radius: 5px 5px 0 0;
+}
+
+.article>span {
+    font-family: 'Balsamiq Sans', cursive;
+    font-size: 1em;
+    margin: 7px;
+    width: 100%border-box;
+    float: left;
+    text-align: justify-all;
+}
+#news>a>.btn {
+    float: left;
+    margin-left: 30%;
+    margin-bottom: 20px;
+}
+
+#video {
+    float: left;
+    width: 90%;
+}
+.video {
+    width: 100%;
+    margin-bottom: 10px;
+    float: left;
+    font-size: 1em;
+    font-family: 'Balsamiq Sans', cursive;
+    color: #646464;
+}
+.video>img {
+    border: 2px solid #dfdfdf;
+    width: 35%;
+    float: left;
+    margin-right: 5%;
+    border-radius: 5px;
+}
+.video>span {
+    float: left;
+    font-weight: bold;
+    width: 50%;
+    margin-top: 20px;
+}
+#video>a>.btn {
+    float: left;
+    margin-left: 30%;
+}
+
+/*Адаптивность!!!*/
