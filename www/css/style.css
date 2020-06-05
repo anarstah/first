@@ -6,7 +6,7 @@
 }
 body, html {
     width: 100%;
-    height: 2000px;
+    height: 100%;
     }
 body {
     background-color: #f6f6f6;
@@ -158,7 +158,7 @@ header>div#logo>a>span {
     color: white;
     }
 
-#req_auth>a>div.btn {
+.btn {
     float: right;
     margin-right: 3%;
     margin-top: 5px;
@@ -169,14 +169,15 @@ header>div#logo>a>span {
     background-color: #ff872e;
     text-shadow: aqua 0 0 1px;
     border-bottom: #ff872e  solid 4px;
+    color: white;
 }
 
-#req_auth>a:hover>div.btn {
+.btn:hover {
     border-bottom: #ff872e  solid 2px;
     margin-top: 7px;
 }
 
-#req_auth>a:active>div.btn {
+.btn:active {
     border-bottom: #ff872e  solid 0;
     margin-top: 9px;
 }
@@ -209,15 +210,18 @@ nav a:last-of-type {
     position: fixed;
     top: 0;
     opacity: 0.9;
-    padding: 0.3%;font-size: 1em;
-    width: 99.6%;
+    padding: 0.3%;
+    font-size: 1em;
+    width: 99.4%;
 
     }
 
 .fixed:hover {
     opacity: 1;
+}
 
-
+.fixed a:hover {
+    color: #ff8224;
 }
 
 #hideMenu {
