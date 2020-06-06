@@ -55,13 +55,13 @@ aside {
 }
 #news>a>.btn {
     float: left;
-    margin-left: 30%;
+    margin-left: 35%;
     margin-bottom: 20px;
 }
 
 #video {
     float: left;
-    width: 90%;
+    width: 100%;
 }
 .video {
     width: 100%;
@@ -93,3 +93,44 @@ aside {
 
 /*Адаптивность!!!*/
 
+
+@media (max-width: 977px) and (min-width: 868px) {
+    .article {
+        margin-right: 5%;
+        width: 45%;
+    }
+}
+
+@media (max-width: 867px) and (min-width: 586px) {
+   #main {
+       width: 100%;
+
+    }
+    #news>a>.btn {
+        margin-left: 37%;
+    }
+    aside {
+        float: right;
+    }
+
+}
+@media (max-width: 585px) {
+    #main {
+        width: 100%;
+    }
+    .article {
+        width: 90%;
+        margin-left: 10%;
+    }
+    aside {
+        float: right;
+    }
+
+}
+
+@media (max-width: 877px) {
+    .video>span {
+        padding-top: 0;
+    }
+
+}

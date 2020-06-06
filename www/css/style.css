@@ -263,8 +263,16 @@ nav a:last-of-type {
         display: none;
         visibility: hidden;
     }
-
 }
+@media (max-width: 824px) {
+    nav a {
+        margin-left: 3%;
+    }
+    nav a:first-child {
+        margin-left: 5%;
+    }
+}
+
 
 /* Конец стилей для шапки*/
 
