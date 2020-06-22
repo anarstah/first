@@ -29,8 +29,12 @@ img {
     max-width: 1000px;
     width: 100%;
     float: left;
-    padding-bottom: 40px;
-    padding-top: 40px;
+
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
 }
 
 /* Стили для Шапки*/
@@ -41,8 +45,6 @@ header {
     background-color: #dcdcdc;
     width: 99%;
     padding: 0.5%;
-    display: flex;
-    justify-content: center;
     border-bottom: solid 1px silver;
 }
 
@@ -87,9 +89,23 @@ header>.wrapper{
     #logo {
         width: 50%;
     }
+
     #contacts {
         width: 50%;
     }
 }
+
+/* Стили для блока с  формой*/
+
+.bcg {
+    background: url("../img/pole.jpg") no-repeat;
+    background-size: 100%;
+    width: 100%;
+    height: auto;
+    float: left;
+}
+
+
+
 
 
