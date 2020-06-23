@@ -124,6 +124,66 @@ header>.wrapper{
     float: left;
 }
 
+#form {
+    width: 300px;
+}
+
+form {
+    background-color: #987fff;
+    width: 300px;
+    height: 200px;
+}
+
+fieldset {
+    height: 100%;
+    border: none;
+}
+
+p.label {
+    text-align: center;
+    color: white;
+    font-size: 1.2em;
+    padding: 15px 10px 3px 10px;
+    text-transform: uppercase;
+}
+
+input  {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+}
+
+input[type=submit] {
+    margin-top: 20px;
+    height: 40px;
+    background-color: #ffc554;
+    text-transform: uppercase;
+    font-size: 1.1em;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+input[type=tel] {
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+
+input[type=tel]:focus {
+    border: 2px solid blueviolet;
+}
+
+p.form {
+    font-size: 1.5em;
+    text-transform: uppercase;
+    color: #987fff;
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
 
 
 
