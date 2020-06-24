@@ -126,6 +126,7 @@ header>.wrapper{
 
 #form {
     width: 300px;
+    margin: 50px 0 100px 100px;
 }
 
 form {
@@ -185,6 +186,10 @@ p.form {
     padding-bottom: 10px;
 }
 
+.slider {
+    width: 100%;
+    float: left;
+}
 
 
 
