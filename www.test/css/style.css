@@ -186,9 +186,16 @@ p.form {
     padding-bottom: 10px;
 }
 
-.slider {
+/* Стили для Слайдера*/
+
+.sliders {
     width: 100%;
     float: left;
+}
+
+.slider>img {
+    width: 610px;
+    height: 243px;
 }
 
 
