@@ -45,6 +45,38 @@
         document.write("Сумма равна - " + summ + '<br/>');
         document.write(" Среднее арифметическое значение равно - " + (summ / arr.length));
 
+
+
+        document.write('<br/>');
+        document.write('<br/>');
+        document.write('<br/>');
+
+
+
+        /* Многоменрыне массивы*/
+        var arr_1 = new Array ();
+        var arr_2 = new Array ();
+        var arr_3 = new Array ();
+        for (i =0; i < 5; i ++) arr_1 [i] = i;
+        for (i =0; i < 10; i ++) arr_2 [i] = i;
+        for (i =0; i < 15; i ++) arr_3 [i] = i;
+        var arr = new Array (arr_1, arr_2, arr_3);
+        document.write(arr [0] [4]);
+
+
+        document.write('<br/>');
+
+        for ( var x = 0; x < arr.length; x ++) {
+            for (var y = 0; y < arr[x].length; y ++) {
+            document.write(arr[x][y] + " ");
+
+
+            }
+            document.write('<br/>');
+        }
+
+
+
     </script>
 
 </body>
