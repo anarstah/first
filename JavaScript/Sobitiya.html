@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>event</title>
+    <script type="text/javascript">
+        function ButtonClick(button) {
+            alert("Вы нажали на кнопку c именем " + button.name);
+
+        }
+        var count = 0;
+        function counter(element) {
+            count ++;
+            element.innerHTML ="На этот текст было наведено " + count +" раз";
+
+        }
+    </script>
+</head>
+<body onload="alert('Страница загружена')">
+    <input type="button" name="Click" value="Click me" onclick="ButtonClick (this)">
+
+    <span onmouseover="counter (this)">На этот текст было наведено 0 раз</span>
+
+</body>
+</html>
