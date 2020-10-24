@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Forms</title>
+    <script type="text/javascript">
+        function valid(form) {
+
+        }
+    </script>
+</head>
+<body>
+    <form action="" method="post" name="form" onsubmit="valid (this)">
+        <label for="name">Имя</label>
+        <input type="text" name="input" placeholder="Name" id="name"> <br/>
+        <label for="password">Пароль</label>
+        <input type="text" name="password" placeholder="password" id="password"> <br/>
+        <label for="proverka">Проверка пороля</label>
+        <input type="text" name="proverka" placeholder="repeat password" id="proverka"> <br/>
+        <span>Пол</span>
+        <input type="radio" name="sex" value="M" id="sex_M">
+        <label for="sex_M">Мужской</label>
+        <input type="radio" name="sex" value="Ж" id="sex_W">
+        <label for="sex_W">Женский</label> <br/>
+        <input type="submit" name="submit" value="Готово">
+
+    </form>
+
+</body>
+</html>
